@@ -1,0 +1,55 @@
+body{
+            font-family: arial,sans-serif;
+            background: #adffce;
+            background: linear-gradient(90deg, rgba(173, 255, 206, 1) 0%, rgba(255, 250, 212, 1) 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container{
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 20px;
+            text-align: center;
+            width: 350px;
+            box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.29);
+        }
+        input[type="password"],
+        input[type="text"] {
+            width: 85%;
+            padding: 10px 40px 10px 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        #btn_validate{
+            margin-top: 15px;
+            background-color: rgb(197, 255, 197);
+            border: none;
+            padding: 7px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,0.29);
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+        }
+        #btn_validate:hover{
+            background-color: #4b4b4b;
+            color: white;
+            transform: scale(1.1);
+        }
+        .toggle_password {
+            position: absolute;
+            cursor: pointer;
+            top: 50%;
+            right: 10px;
+            transform: translateY(-50%);
+            color: #888;
+        }
+        .inputs{
+            position: relative;
+            width: 100%;
+        }
