@@ -1,7 +1,7 @@
-body{
+    body{
             font-family: arial,sans-serif;
-            background: #adffce;
-            background: linear-gradient(90deg, rgba(173, 255, 206, 1) 0%, rgba(255, 250, 212, 1) 100%);
+            background: #c0adff;
+            background: linear-gradient(90deg, rgb(86, 0, 157) 0%, rgba(255, 250, 212, 1) 100%);
             display: flex;
             justify-content: center;
             align-items: center;
@@ -27,7 +27,7 @@ body{
         }
         #btn_validate{
             margin-top: 15px;
-            background-color: rgb(197, 255, 197);
+            background-color: rgb(108, 0, 161);
             border: none;
             padding: 7px 20px;
             border-radius: 10px;

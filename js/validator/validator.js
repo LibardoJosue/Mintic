@@ -1,5 +1,19 @@
-        // Declaración de variables
+    // function validar() {
+        //     alert("BIENVENIDO AL SISTEMA");
+        // }
+
+        // function loadpage() {
+        //     Swal.fire({
+        //         title: "Bienvenido",
+        //         text: "A mi sitio Web",
+        //         icon: "warning",
+        //         showConfirmButton: false,
+        //         timer: 3000
+        //     });
+        // }
+
         "use strict"
+        // Declaración de variables
         const toggle_password = document.getElementById("toggle_password");
         const password = document.getElementById("password");
         
@@ -47,4 +61,4 @@
                     `
                 });                 
             }
-        } 
+        }        
