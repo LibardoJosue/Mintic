@@ -69,3 +69,32 @@
             text-decoration: underline;
             
         }
+
+         button{
+            margin-top: 15px;
+            background-color: rgb(108, 0, 161);
+            border: none;
+            padding: 7px 20px;
+            border-radius: 10px;
+            font-size: 16px;
+            box-shadow: 0px 0px 2px 0.5px rgba(0,0,0,0.29);
+            cursor: pointer;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+        }
+        button:hover{
+            background-color: #4b4b4b;
+            color: white;
+            /*transform: scale(1.1);*/
+        }
+      
+        a{
+            text-decoration: none;
+            color: #888;
+                       
+        }
+
+        a:hover{
+            color: #4b4b4b;
+            text-decoration: underline;
+            
+        }
