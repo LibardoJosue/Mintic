@@ -16,6 +16,10 @@
             text-align: center;
             width: 350px;
             box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.29);
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            
         }
         input[type="password"],
         input[type="text"] {
@@ -39,7 +43,7 @@
         #btn_validate:hover{
             background-color: #4b4b4b;
             color: white;
-            transform: scale(1.1);
+            /*transform: scale(1.1);*/
         }
         .toggle_password {
             position: absolute;
@@ -52,4 +56,16 @@
         .inputs{
             position: relative;
             width: 100%;
+        }
+
+        a{
+            text-decoration: none;
+            color: #888;
+                       
+        }
+
+        a:hover{
+            color: #4b4b4b;
+            text-decoration: underline;
+            
         }
